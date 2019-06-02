@@ -7,15 +7,9 @@ public class GameController : MonoBehaviour
 {
     public List<Player> players;
     // Use this for initialization
-    void Start()
+    private void Start()
     {
         Initialize();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     private void Initialize()
@@ -37,6 +31,5 @@ public class GameController : MonoBehaviour
             }
             k++;
         }
-        int a = 1;
     }
 }
